@@ -2,7 +2,7 @@ import React from 'react'
 
 const About = () => {
   return (
-    <div className='flex '>
+    <div className='flex space-x-4 '>
       <div className='w-2xl relative'>
         <div className=''><img src="/images/aboutrobot.jpg" alt="" />
          
@@ -21,7 +21,7 @@ const About = () => {
 
         </div>
       </div>
-      <div className='w-2xl mt-47'>
+      <div className='w-2xl mt-35'>
         <span className='text-[#AAA8B1] '>
         I involves the development of algorithms, models, and systems that <br />
         enable machines to mimic human intelligence and behavior. It <br />

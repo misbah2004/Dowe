@@ -3,10 +3,18 @@ import Trusted from "../Components/Trusted";
 import About from "../Components/About";
 import ChouseUs from "../Components/ChouseUs";
 import Services from "../Components/Services";
+import CaseStudies from "../Components/CaseStudies";
+import Navbar from "../Components/Navbar";
+import Footer from "../Components/Footer";
+import Testimonial from "../Components/Testimonial";
+import Questions from "../Components/Questions";
+import MostSearch from "../Components/MostSearch";
+import Blog from "../Components/Blog";
 
 const Home = () => {
   return (
     <div className="min-h-screen">
+      <Navbar/>
       <div className="relative">
         <img src="/images/heroimg.jpg" alt="" className="h-[550px] w-full" />
         <div className="absolute top-0 w-full h-full flex ">
@@ -33,6 +41,12 @@ const Home = () => {
       <About/>
       <ChouseUs/>
       <Services/>
+      <CaseStudies/>
+      <Testimonial/>
+      <Questions/>
+      <MostSearch/>
+      <Blog/>
+      <Footer/>
     </div>
     );
   };

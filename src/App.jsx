@@ -8,11 +8,11 @@ import { BrowserRouter , Routes , Route } from 'react-router-dom'
 const App = () => {
   return (
     <BrowserRouter>
-    <Navbar/>
+    {/* <Navbar/> */}
     <Routes>
       <Route path='/' element={<Home/>}></Route>
     </Routes>
-    <Footer/>  
+    {/* <Footer/>   */}
     </BrowserRouter>
 
   )
