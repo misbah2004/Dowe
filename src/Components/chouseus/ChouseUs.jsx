@@ -25,12 +25,8 @@ const ChouseUs = () => {
           </span>
         </div>
         <div className='absolute z-50'>
-        <img src="/images/robot.png" alt="" className='h-90 rotate-y-170 mt-40 ml-80' />
+        <img src="/images/robot.png" alt="" className='md:block h-90 rotate-y-170 mt-40 ml-80' />
         </div>
-
-          
-
-
       </div>
       <div className='w-2xl  mt-30'>
         <div className='bg-[#25232E] h-20 mt-2 w-xl flex juatify-center items-center rounded'>

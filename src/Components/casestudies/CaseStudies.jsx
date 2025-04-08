@@ -16,8 +16,7 @@ const CaseStudies = () => {
         <div className=' w-6xl flex justify-center space-x-2 relative'>
             <div className='bg-gray-500 w-90'><img src="/images/case1.jpg" alt="" /> <button className='absolute top-50 ml-5 bg-[#060A14] px-3 py-2.5 text-white'>Industrial Automation</button></div>
             <div className='bg-gray-500 w-90'><img src="/images/case2.jpg" alt="" /> <button className='absolute top-50 ml-5 bg-[#060A14] px-3 py-2.5 text-white'>Surjical Robotics</button></div>
-            <div className='bg-gray-500 w-90'><img src="/images/case3.jpg" alt="" /> <button className='absolute top-50 ml-5 bg-[#060A14] px-3 py-2.5 text-white'>Autonomous Vehicles</button></div>
-            
+            <div className='bg-gray-500 w-90'><img src="/images/case3.jpg" alt="" /> <button className='absolute top-50 ml-5 bg-[#060A14] px-3 py-2.5 text-white'>Autonomous Vehicles</button></div>    
         </div>
       </div>
     </div>

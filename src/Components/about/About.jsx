@@ -1,5 +1,15 @@
 import React from 'react'
 
+const about = [
+  {
+    id:1,
+    roboimg: "/images/aboutrobot.jpg",
+    title: "About The DoweyAi",
+    desc: "AI and Robotics have witnessed significant advancements in recent years, driven by breakthroughs in machine learning, computer vision, natural language processing, and hardware capabilities.",
+    name: "Brian Zaragoza",
+  }
+]
+
 const About = () => {
   return (
     <div className='flex space-x-4 '>
@@ -34,7 +44,7 @@ const About = () => {
         AI has applications in a wide range of domains, including healthcare, <br />
         finance, transportation, manufacturing, and entertainment.
         </span>
-        <button className='bg-[#59EBFD] px-3 py-2 mt-3'>Explore More</button>
+        <button className='bg-[#59EBFD] px-3 py-2 mt-3 hover:scale-105 duration-300'>Explore More</button>
 
       </div>
     </div>
