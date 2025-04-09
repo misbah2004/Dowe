@@ -10,7 +10,6 @@ const Services = () => {
             <button className='border border-[#59EBFD] text-white px-3 mt-4 py-1 shadow-inner rounded-full hover:bg-[#59EBFD] hover:text-black transition'>
   All Services
 </button>
-
         </div>
         <div className='w-2xl flex flex-wrap gap-4'>
             <div className='h-80 w-70 bg-white rounded relative'>

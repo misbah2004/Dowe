@@ -1,51 +1,42 @@
 import React from 'react'
 
-const about = [
-  {
-    id:1,
-    roboimg: "/images/aboutrobot.jpg",
-    title: "About The DoweyAi",
-    desc: "AI and Robotics have witnessed significant advancements in recent years, driven by breakthroughs in machine learning, computer vision, natural language processing, and hardware capabilities.",
-    name: "Brian Zaragoza",
-  }
-]
-
 const About = () => {
   return (
-    <div className='flex space-x-4 '>
-      <div className='w-2xl relative'>
-        <div className=''><img src="/images/aboutrobot.jpg" alt="" />
-         
-        </div>
-        <div className='absolute top-25 ml-50 flex flex-col space-y-4'>
-            <span className='text-4xl font-Exo font-bold'><h1 className='text-[#FFFFFF]'>About The <span className='bg-gradient-to-r from-[#5C00E5] to-[#59EBFD] text-transparent bg-clip-text'>DoweyAi</span></h1></span>
-            <p className='text-[#FFFFFF] mt-8 ml-15 text-md'>AI and Robotics have witnessed significant <br />
-             advancements in recent years, driven by <br />
-             breakthroughs in machine learning, computer <br />
-             vision, natural language processing, and <br />
-             hardware capabilities.</p>
-            <span className='text-[#FFFFFF] ml-15'>Brian Zaragoza <br />
-                <span className='text-[#AAA8B1]'>Director</span>
-                <span className='h-10 w-[1px] bg-white text-white inline-block ml-20'></span>
-            </span>
-
+    <div className="flex flex-col lg:flex-row w-full px-6 lg:px-20 py-10 items-center gap-10">
+      
+      {/* Left Section: Image and Text on Image */}
+      <div className="relative w-full lg:w-1/2">
+        <img src="/images/aboutrobot.jpg" alt="DoweyAi Robot" className="w-full h-auto object-cover rounded-lg" />
+        
+        {/* Absolute Text on Image */}
+        <div className="absolute top-10 left-6 sm:left-10 md:left-16 text-white space-y-4">
+          <h1 className="text-2xl sm:text-3xl md:text-4xl font-bold font-Exo">
+            About The <span className="bg-gradient-to-r from-[#5C00E5] to-[#59EBFD] text-transparent bg-clip-text">DoweyAi</span>
+          </h1>
+          <p className="text-sm sm:text-base md:text-lg max-w-sm sm:max-w-md">
+            AI and Robotics have witnessed significant advancements in recent years, driven by breakthroughs in machine learning, computer vision, natural language processing, and hardware capabilities.
+          </p>
+          <div className="text-sm sm:text-base">
+            Brian Zaragoza <br />
+            <span className="text-[#AAA8B1]">Director</span>
+            <span className="inline-block h-4 w-[1px] bg-white mx-4"></span>
+          </div>
         </div>
       </div>
-      <div className='w-2xl mt-35'>
-        <span className='text-[#AAA8B1] '>
-        I involves the development of algorithms, models, and systems that <br />
-        enable machines to mimic human intelligence and behavior. It <br />
-        encompasses various subfields such as machine learning, natural <br />
-        language processing, computer vision, and expert systems. AI systems <br />
-        can learn from data, recognize patterns, make decisions, and improve <br />
-        their performance over time.
-        </span> <br />
-        <span className='text-[#AAA8B1] block mt-3'>
-        AI has applications in a wide range of domains, including healthcare, <br />
-        finance, transportation, manufacturing, and entertainment.
-        </span>
-        <button className='bg-[#59EBFD] px-3 py-2 mt-3 hover:scale-105 duration-300'>Explore More</button>
 
+      {/* Right Section: Text Content */}
+      <div className="w-full lg:w-1/2 space-y-4 text-[#AAA8B1] text-sm sm:text-base">
+        <p>
+          It involves the development of algorithms, models, and systems that enable machines to mimic human intelligence and behavior. 
+          It encompasses various subfields such as machine learning, natural language processing, computer vision, and expert systems. 
+          AI systems can learn from data, recognize patterns, make decisions, and improve their performance over time.
+        </p>
+        <p>
+          AI has applications in a wide range of domains, including healthcare, finance, transportation, manufacturing, and entertainment.
+        </p>
+        <button className="bg-[#59EBFD] text-black px-4 py-2 rounded hover:scale-105 transition-transform duration-300">
+          Explore More
+        </button>
       </div>
     </div>
   )

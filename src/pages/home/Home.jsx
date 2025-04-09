@@ -19,7 +19,7 @@ const Home = () => {
         <img src="/images/heroimg.jpg" alt="" className="h-[550px] w-full" />
         <div className="absolute top-0 w-full h-full flex ">
           <div className="flex flex-col space-y-4 mt-20 ml-20 absolute z-50 ">
-            <p className=" text-base sm:text-xl md:text-2xl lg:text-4xl xl:text-6xl text-[#FFFFFF] font-Exo font-semibold">
+            <p className=" text-base sm:text-xl md:text-2xl lg:text-4xl xl:text-6xl  text-[#FFFFFF] font-Exo font-semibold">
               AI & robotics are <br />
               making the world <br />
               <span className="bg-gradient-to-r from-[#5C00E5] to-[#59EBFD] text-transparent bg-clip-text">

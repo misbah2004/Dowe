@@ -5,12 +5,10 @@ import { BrowserRouter , Routes , Route } from 'react-router-dom'
 
 const App = () => {
   return (
-    <BrowserRouter>
-    
+    <BrowserRouter> 
     <Routes>
       <Route path='/' element={<Home/>}></Route>
-    </Routes>
-    
+    </Routes>    
     </BrowserRouter>
 
   )
